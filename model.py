@@ -1,7 +1,7 @@
 import pandas as pd
 import pickle
 
-df=pd.read_excel("C:\\Users\\Hasya\\Desktop\\uber_data1.xlsx ")
+df=pd.read_excel("C:\\Users\\hp\\uber Data Analysis\\new_data.csv ")
 
 x=df[['Location','DateOfMonth','Weekday','Hour']]
 y=df[['No of Bookings']]
