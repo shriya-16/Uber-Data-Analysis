@@ -18,5 +18,5 @@ ridge_regressor=GridSearchCV(ridge,parameters,scoring='neg_mean_squared_error',c
 ridge_regressor.fit(x,y)
 
 pickle.dump(ridge_regressor, open('model.pkl','wb'))
-
-model = pickle.load(open('model.pkl','rb'))
+model.predict()
+##model = pickle.load(open('model.pkl','rb'))
